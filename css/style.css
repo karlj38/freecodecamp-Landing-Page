@@ -1,0 +1,84 @@
+header {
+  position: fixed;
+  z-index: 10;
+}
+#header-img {
+  max-height: 50px;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-size: 2.5rem;
+  padding-left: 0;
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: 4rem;
+}
+
+.nav-link {
+  padding-top: 2rem;
+}
+
+section {
+  padding-top: 100px;
+}
+#landing {
+  max-width: 800px;
+  min-height: 100vh;
+}
+#intro {
+  padding-top: 10%;
+}
+#stem-icon {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.scroll:hover {
+  color: #28a745;
+  text-decoration: none;
+}
+
+hr {
+  width: 25%;
+  margin-top: 100px;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.about-list-item {
+  padding-bottom: 2rem;
+}
+
+i {
+  color: #28a745;
+}
+
+#profile-img {
+  border-radius: 5px;
+  border-radius: 100%;
+  padding-bottom: 3rem;
+}
+
+#testimonials {
+  height: 600px;
+  max-width: 700px;
+}
+
+#social,
+#copy {
+  height: 80px;
+}
+
+@media screen and (max-width: 500px) {
+  #stem-icon {
+    width: 100px;
+    height: 100px;
+  }
+}
